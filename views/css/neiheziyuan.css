@@ -1,0 +1,320 @@
+/*公用样式*/
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			ul,ol{
+				list-style-type: none;
+			}
+			
+			a{
+				text-decoration: none;
+				color: #333;
+			}
+/*具体样式*/    
+                      
+                      
+/*头部样式*/       
+			.header{
+				width: 1154px;
+				height: 24px;
+				background-color:#EEF3F6;
+				margin: 0 auto;
+				position: relative;
+				}
+				
+			.header-left{
+				width: 980px;
+				height: 24px;
+				background-color:#EEF3F6;
+				margin: 0 auto;
+				
+			}
+		    .header-left  ul li{
+		    	font-size: 12px;
+		    	float: left;
+		    	line-height: 24px;
+		    	padding:0 4px;
+		    	font-family:sans-serif;
+		    }
+			.sec{
+				width: 1154px;
+				height: 180px;
+				background-color:#FAFCFC;
+				margin: 0 auto;
+				
+				}
+			.sec-left{
+				width: 980px;
+				height: 95px;
+				background-color:#F6F9FA;
+				margin: 0 auto;
+
+			}
+			.sec-left img{
+				margin-top: 0px;
+				float: left;
+				
+			}
+			.sec-right{
+				width: 340px;
+				height: 70px;
+				background-color:#F6F9FA;
+				float: right;
+				font-size: 12px;
+				font-family: "arial, helvetica, sans-serif";
+			}
+			.sec-right input[type="text"]{
+				width: 150px;
+				height: 23px;
+			}
+			.sec-right a{
+				margin-left: 15px;
+			}
+			.sec-right input[type="password"]{
+				width: 150px;
+				height: 23px;
+				margin-left: 22px;
+				margin-top: 20px;
+				}
+		    .botton{
+		    	width: 980px;
+		    	height: 33px;
+		    	background-color:#2873C2;
+		    	margin: 0 auto;
+		    
+		    	
+		    }
+		    
+		    .botton ul li{
+		    	float: left;
+		    	height: 32px;
+		    	line-height: 32px;
+		    	text-align: center;
+		    	width: 90px;
+		    	
+
+		      }
+		      .botton ul .botton-li{
+		      	 width:1px;
+	             height:20px;
+	             background-color:#508FD0;
+	             margin-top:7px;
+
+		      }
+		      .botton ul li a{
+		      	font-family: "arial, helvetica, sans-serif";
+		      	color: #FFFFFF;
+		      }
+		    .botton ul li:hover{
+		    	background-color:#1154A8;
+		    }
+		     .foot{
+		    	width: 980px;
+		    	height: 45px;
+		    	background:#FCFDFD;
+		    	margin: 0 auto;
+		    	position: relative;
+		    	
+		    }
+		     .foot input[type="text"]{
+		        width: 404px;
+		        height: 35px;
+		        position: absolute;
+		        top: 4px;
+		        left: 52px;
+		      
+		      }
+		      .foot .sou{
+		      	position: absolute;
+		      	top: 0px;
+		      	left: 463px;
+		      	width: 67px;
+		      	height: 45px;
+		      }
+		      .foot-right{
+		      	width: 200px;
+		      	height: 45px;
+		      	background-color:#FCFDFD;
+		      	float:right;
+		      	line-height: 45px;
+		      	margin-right: 252px;
+		      }
+		     .foot-right ul li{
+		     	float: left;
+		     	margin-left: 10px;
+		     }
+/*头部样式结束*/ 
+/*中间样式开始*/
+             .center{
+             	height: 29px;
+             	width: 980px;
+             	background: #FCFDFD;
+             	margin: 0 auto;
+             	position: relative;
+             	
+             }
+             .center ul{
+             	width: 400px;
+             	height: 25px;
+             	position: absolute;
+             	top: 3px;
+             	left: 48px;
+             }
+          .center ul li a{
+          	float: left;
+          	margin-left: 11px;
+          }
+          .wonder{
+          	width: 980px;
+          	height: 555px;
+          	
+          	margin: 0 auto;
+          	font-family: "arial, helvetica, sans-serif";
+          	font-size: 14px;
+          	position: relative;
+          	
+          }
+          .wonder1{
+          	width: 132px;
+          	height: 306px;
+       
+          	line-height: 28px;
+          	
+          }
+          .wonder1 ul li a{
+          margin-left: 10px;
+          margin-top: 10px;
+          
+          }
+          .wonder2{
+          	width: 830px;
+          	height: 66px;
+          
+          	float: right;
+          	position: absolute;
+          	top: 1px;
+          	left: 149px;
+          	border: 1px solid #CDCDCD;
+          }
+          	.wonder2 ul li{
+          		line-height: 30px;
+          		margin-left: 15px;
+          	}
+          	.wonder2 ul li a{
+          		font-family: "arial, helvetica, sans-serif";
+          		font-size: 18px;
+          	}
+          	.wonder2 ul li span{
+          		margin-left: 20px;
+          	}
+          	.wonder2-1{
+          		width:830px;
+          		height: 36px;
+          	 
+          		position: absolute;
+          		left: 150px;
+          		top: 79px;
+          		
+          	}
+          	.wonder2-2{
+          		width: 830px;
+          		height: 410px;
+                border: 1px solid #CDCDCD;
+          		position: absolute;
+          		top: 129px;
+          		left: 150px;
+          	}
+          .wonder2-2-1{
+          	width: 830px;
+          	height: 33px;
+          	background-color: #F2F2F2;
+          	line-height: 33px;
+          	
+          }
+          .wonder2-2-1 ul li{
+          	float: left;
+          	margin-left: 6px;
+          }
+          .wonder2-2-2 ul li{
+          	float: right;
+          	width: 100px;
+          	height: 33px;
+          
+          	text-align: center;
+          }
+          
+          .wonder2-2-center{
+          	width: 810px;
+          	height: 365px;
+         
+          	margin: 0 auto;
+          
+          }
+          
+          
+          
+          
+          .wonder2-2-center1{
+          	width: 810px;
+          	height: 38px;
+          
+          	font-family: "arial, helvetica, sans-serif";
+          	font-size: 14px;
+         	position: relative;
+          	
+          }
+          .wonder2-2-center1 img{
+          	width: 30px;
+          	height: 38px;
+          }
+          .wonder2-2-center1 a{
+          	
+          	position: absolute;
+          	top: 10px;
+          	
+          }
+          .wonder2-2-center2{
+          	width: 280px;
+          	height: 37px;
+          	
+          	float: right;
+          	font-size: 12px;
+          	font-family: "arial, helvetica, sans-serif";
+          }
+          .wonder-down{
+          		width:830px;
+          		height: 36px;
+          	    
+          	    margin-left: 373px;
+          		
+              }
+               .won{
+				width: 1000px;
+				height: 100px;
+				margin:10px auto;
+				
+				
+				border-top: 1px solid #cdcdcd
+			}
+			.p{
+				font-family: "黑体";
+				font-size: 18px;
+				float:left ;
+				padding-top: 10px;
+				
+			}
+			.po{
+				
+				font-family: "黑体";
+				font-size: 18px;
+				float: right;
+				padding-top: 10px;
+			}	
+				.tou1{
+					
+					width: 60px;
+					height: 40px;
+					margin-top: 20px;
+					background: #2C7CCD;
+	            }

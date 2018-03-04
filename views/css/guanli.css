@@ -1,0 +1,59 @@
+	/*公用样式*/
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			ul,ol{
+				list-style-type: none;
+			}
+			
+			a{
+				text-decoration: none;
+				color: #333;
+			}
+/*..................................................................................*/
+
+.center1{
+	width: 340px;
+	height: 80px;
+
+	margin-left: 370px;
+	margin-top: 170px;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 14px;
+}
+.center a{
+	color: #1154A8;
+}
+.left{
+	width: 240px;
+	height: 152px;
+	
+	margin-left: 736px;
+	margin-top: -127px;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 16px;
+	color: #666695;
+	line-height: 30px;
+	text-align: right;
+
+
+}
+.left input[type="text"]{
+	width: 156px;
+	height: 21px;
+	
+}
+.left input[type="password"]{
+	width: 156px;
+	height: 21px;
+}
+.left p select{
+	width: 160px;
+	height: 26px;
+}
+.left button{
+	margin-right: 127px;
+	margin-top: 10px;
+}
+

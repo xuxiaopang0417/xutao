@@ -1,0 +1,242 @@
+
+		/*公用样式*/
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			ul,ol{
+				list-style-type: none;
+			}
+			
+			a{
+				text-decoration: none;
+				color: #333;
+			}
+			/*具体样式*/
+			
+			
+			.box{
+				width: 1000px;
+				height: 800px;
+				margin: 1px auto;
+				
+			}
+			
+			.box1{
+				width: 1000px;
+				height: 25px;
+				border-bottom: 1px solid #ccc;	
+			}
+			.box2{
+				width: 1000px;
+				height: 100px;
+				
+				position: relative;
+				
+			}
+			.box2-zuo{
+				height: 100px;
+				width: 100px;
+				float: left;
+			}
+			.box2-you{
+				width: 500px;
+				height: 100px;
+				
+				position: absolute;
+				left: 500px;
+				top: 0;	
+			}
+			.box2-you-you{
+				width: 400px;
+				height: 70px;
+				
+				padding: 1px;
+				margin: 15px;
+				
+				
+				
+			}
+			.box2-you-you-you{
+				width: 80px;
+				height: 75px;
+				
+				position: absolute;
+				left: 350px;
+				top: 15px;
+			}
+			.box22{
+				
+				width: 150px;
+				height: 20px;
+			}
+			
+			.box222{
+				
+				width: 150px;
+				height: 20px;	
+			}
+			.box3{
+				width:1000px;
+				height: 40px;
+				background: #2c7ccd;
+				line-height: 40px;
+				
+			}
+ 				
+ 		     .box3 ul{
+ 			
+				width: 1000px;
+				border:1px ;
+			}
+			.box3 ul li{
+				float: left;
+			
+			}
+		.box3 ul li a{
+				width:100px;
+				height:32px;
+				line-height:40px;
+			
+				color: #fff;
+				
+				font-size:16px;
+				display:block;
+				
+				text-align:center;
+			}
+			.box4{
+				width: 1000px;
+				height: 50px;
+				
+				margin-top: 2px;
+				position: relative;
+			}
+			
+			.box4-1{
+				
+				width:50px;
+				height: 44px;
+				
+				
+				
+			}
+			.box4-2{
+				width: 900px;
+				height: 50px;
+				
+				position: absolute;
+				left: 65px;
+				top: 0;
+			}
+			.box4-2-2{
+				width:400px;
+				height: 40px;
+				outline: none;
+
+			}
+              .box4-2-2-1{
+              	width: 80px;
+              	height: 45px;
+              	
+              }
+			
+			.box4-2-2-1-1{
+			 	width:300px;
+			 	height: 45px;
+			 	line-height: 45px;
+			 	
+			 	position: absolute;
+				left: 500px;
+				top: 0;
+				
+				margin:0 auto;
+			 	
+			 }
+			 .box4-2 ul li{
+			 	float: left;
+			 	width: 50px;
+			   
+			 }
+			 .box4-2 ul li a{
+			    
+				line-height:45px;
+			
+				color: red;
+				
+				font-size:16px;
+				display:block;
+				
+				text-align:center;
+			 }
+			.con{
+				width: 1000px;
+				height: 450px;
+				
+				margin-top: 4px;
+				position: relative;
+				 border:1px solid  #cdcdcd
+			}
+			.con1{
+				width: 1000px;
+				height: 35px;
+				background: #f2f2f2;
+				line-height: 30px;
+				font-family:"黑体";
+				font-size: 18px;
+				
+				
+			}
+			.con2{
+				width: 700px;
+				height: 400px;
+			
+				position: absolute;
+			    top: 40px;
+			    left: 30px;
+			    text-align: center;
+			
+			  
+			   
+				
+			}
+			.div{
+				width: 200px;
+				height: 30px;
+				margin-bottom:15px;
+			}
+			.tou {
+				font-size: 18px;
+			    margin-top: 10px;
+			    border-bottom: 1px dashed #cdcdcd;	
+			     text-align: center;
+			}
+			.won{
+				width: 1000px;
+				height: 100px;
+				margin-top: 10px;
+				
+				
+				border-top: 1px solid #cdcdcd
+			}
+			.p{
+				font-family: "黑体";
+				font-size: 18px;
+				float:left ;
+				padding-top: 10px;
+				
+			}
+			.po{
+				
+				font-family: "黑体";
+				font-size: 18px;
+				float: right;
+				padding-top: 10px;
+			}	
+				.tou1{
+					
+					width: 60px;
+					height: 40px;
+					margin-top: 20px;
+					background: #2C7CCD;
+	}

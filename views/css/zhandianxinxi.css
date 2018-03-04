@@ -1,0 +1,97 @@
+/*公用样式*/
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			ul,ol{
+				list-style-type: none;
+			}
+			a{
+				text-decoration: none;
+				color: #333;
+			}
+/*。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+/*具体样式*/
+.top{
+	width: 1440px;
+	height: 91px;
+	background-color: #EEF6FC;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.top-center{
+	width: 1370px;
+	height: 80px;
+	background-color: #E6F2FB;
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+.top-center-left{
+	float: right;
+	width: 300px;
+	height: 32px;
+	
+	line-height: 33px;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 14px;
+}
+.top-center-left ul li{
+	float: left;
+	margin-left: 15px;
+}
+.top-center-down{
+	width: 1200px;
+	height: 43px;
+
+	position: absolute;
+	top: 30px;
+	left: 170px;
+	line-height: 43px;
+	border-bottom: 6px solid #0099CC;
+}
+.top-center-down ul li{
+	float: left;
+	width: 77px;
+	height: 43px;
+	border-radius: 20% 20% 0 0;
+}
+.top-center-down ul li a:hover{
+	color:#FFFFF4;
+}
+
+.top-center-down ul li:hover{
+	background-color: #3D7EB7;
+}
+.center{
+	width: 160px;
+	height: 422px;
+	background-color: #F2F9FD;
+	line-height: 30px;
+	font-size: 14px;
+	font-family: "arial, helvetica, sans-serif";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

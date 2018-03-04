@@ -1,0 +1,369 @@
+/*公用样式*/
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			ul,ol{
+				list-style-type: none;
+			}
+			
+			a{
+				text-decoration: none;
+				color: #333;
+			}
+/*具体样式*/    
+                      
+                      
+/*头部样式*/       
+			.header{
+				width: 1154px;
+				height: 24px;
+				background-color:#EEF3F6;
+				margin: 0 auto;
+				position: relative;
+				}
+				
+			.header-left{
+				width: 980px;
+				height: 24px;
+				background-color:#EEF3F6;
+				margin: 0 auto;
+				
+			}
+		    .header-left  ul li{
+		    	font-size: 12px;
+		    	float: left;
+		    	line-height: 24px;
+		    	padding:0 4px;
+		    	font-family:sans-serif;
+		    }
+			.sec{
+				width: 1154px;
+				height: 180px;
+				background-color:#FAFCFC;
+				margin: 0 auto;
+				position: relative;
+				}
+			.sec-left{
+				width: 980px;
+				height: 95px;
+				background-color:#F6F9FA;
+				margin: 0 auto;
+
+			}
+			.sec-left img{
+				margin-top: 0px;
+				float: left;
+				
+			}
+			.sec-right{
+				width: 350px;
+				height: 60px;
+		
+				float: right;
+				font-size: 14px;
+				font-family: "arial, helvetica, sans-serif";
+			}
+			.sec-right ul{
+				width: 285px;
+				height: 19px;
+				
+				
+			}
+			.sec-right ul li{
+				float: left;
+				width: 70px;
+				text-align: center;
+			}
+			.sec-right-p{
+				width: 180px;
+				height: 20px;
+			
+				margin-left: 106px;
+				margin-top: 15px;
+			}
+			.sec-right-p a{
+				margin-left:15px;
+				
+			}
+			.sec-right-img img{
+				position: absolute;
+				top: 0px;
+				right: 94px;
+			}
+	        
+		    .botton{
+		    	width: 980px;
+		    	height: 33px;
+		    	background-color:#2873C2;
+		    	margin: 0 auto;
+		    
+		    	
+		    }
+		    
+		    .botton ul li{
+		    	float: left;
+		    	height: 32px;
+		    	line-height: 32px;
+		    	text-align: center;
+		    	width: 90px;
+		    	
+
+		      }
+		      .botton ul .botton-li{
+		      	 width:1px;
+	             height:20px;
+	             background-color:#508FD0;
+	             margin-top:7px;
+
+		      }
+		      .botton ul li a{
+		      	font-family: "arial, helvetica, sans-serif";
+		      	color: #FFFFFF;
+		      }
+		    .botton ul li:hover{
+		    	background-color:#1154A8;
+		    }
+		     .foot{
+		    	width: 980px;
+		    	height: 45px;
+		    	background:#FCFDFD;
+		    	margin: 0 auto;
+		    	position: relative;
+		    	
+		    }
+		     .foot input[type="text"]{
+		        width: 404px;
+		        height: 35px;
+		        position: absolute;
+		        top: 4px;
+		        left: 52px;
+		      
+		      }
+		      .foot .sou{
+		      	position: absolute;
+		      	top: 3px;
+		      	left: 463px;
+		      	width: 67px;
+		      	height: 39px;
+		      }
+		      .foot-right{
+		      	width: 200px;
+		      	height: 45px;
+		      	background-color:#FCFDFD;
+		      	float:right;
+		      	line-height: 45px;
+		      	margin-right: 252px;
+		      }
+		     .foot-right ul li{
+		     	float: left;
+		     	margin-left: 10px;
+		     }
+/*头部样式结束*/ 
+/*中间样式开始*/
+             .center{
+             	height: 29px;
+             	width: 980px;
+             	background: #FCFDFD;
+             	margin: 0 auto;
+             	position: relative;
+             	font-family: "arial, helvetica, sans-serif";
+             	font-size: 14px;
+             	
+             }
+             .center ul{
+             	width: 400px;
+             	height: 25px;
+             	position: absolute;
+             	top: 3px;
+             	left: 48px;
+             }
+          .center ul li a{
+          	float: left;
+          	margin-left: 11px;
+          	}
+          .con{
+          	width: 980px;
+          	height: 310px;
+            border: 1px solid #CCCCCC;
+            background-color: #E8F0F7;
+          	margin: 0 auto;
+          	font-family: "arial, helvetica, sans-serif";
+          	font-size: 16px;
+          	position: relative;
+          	
+          }
+          .con-left{
+          	width: 125px;
+          	height:310px ;
+            background-color: #E8F0F7;
+          	margin-left: 15px;
+          }
+          .con-left h3{
+          	width: 125px;
+          	height: 45px;
+        
+          	line-height: 45px;
+          	border-bottom: 1px dashed #CFCFCF;
+          }
+         .con-left ul{
+         	width: 125px;
+         	height: 136px;
+         	line-height: 33px;
+         }
+         .con-left ul li{
+         	width: 110px;
+         	height: 33px;
+            border-bottom: 1px dashed #CFCFCF;
+         }
+         .con-right{
+         	width: 820px;
+         	height: 308px;
+         	background-color: #FFFFFF;
+         	position: absolute;
+            top:0;
+         	right: 10px;
+         }
+         .con-right1{
+         	width: 90px;
+         	height: 32px;
+         	font-family: "arial, helvetica, sans-serif";
+         	font-size: 16px;
+         	font-weight: bold;
+         	
+         	margin-left: 17px;
+         	margin-top: 14px;
+         	line-height: 32px;
+         	border-top:1px solid #CDCDCD; 
+         	border-left: 1px solid #CDCDCD;
+         	
+         }
+         .con-right1-1{
+         	width: 700px;
+         	height: 32px;
+         	position: absolute;
+         	top: 15px;
+         	right: 13px;
+         	border-bottom:1px solid #CDCDCD;
+         	border-left: 1px solid #CDCDCD;
+         }
+           .con-right2{
+         	width: 90px;
+         	height: 32px;
+         	font-family: "arial, helvetica, sans-serif";
+         	font-size: 12px;
+         	margin-left: 17px;
+         	margin-top:0;
+         	line-height: 32px;
+         	}
+         	 .con-right2-2{
+         	width: 600px;
+         	height: 32px;
+         	position: absolute;
+         	top: 48px;
+         	right: 69px;
+         	font-family: "arial, helvetica, sans-serif";
+         	font-size: 12px;
+         	line-height: 32px;
+         }
+            .con-right input[type="text"]{
+            	width: 340px;
+            	height: 23px;
+            	position: absolute;
+            	top: 81px;
+            	left: 150px;
+            }
+             .con-right3-3{
+         	width: 600px;
+         	height: 32px;
+         	position: absolute;
+         	top: 109px;
+         	right: 69px;
+         	font-family: "arial, helvetica, sans-serif";
+         	font-size: 12px;
+         	line-height: 32px;
+         }
+             .con-right4-4{
+         	width: 600px;
+         	height: 32px;
+         	position: absolute;
+         	top: 141px;
+         	right: 69px;
+         	font-family: "arial, helvetica, sans-serif";
+         	font-size: 12px;
+         	line-height: 32px;
+         }
+           .con-right5-5{
+         	width: 600px;
+         	height: 32px;
+         	position: absolute;
+         	top: 175px;
+         	right: 69px;
+         	font-family: "arial, helvetica, sans-serif";
+         	font-size: 12px;
+         	line-height: 32px;
+         }
+         
+          .con-right6-6 input[type="text"]{
+            	width: 340px;
+            	height: 23px;
+            	position: absolute;
+            	top: 210px;
+            	left: 150px;
+            }
+             .con-right7-7{
+         	width: 600px;
+         	height: 32px;
+         	position: absolute;
+         	top: 250px;
+             right: 69px;
+         	font-family: "arial, helvetica, sans-serif";
+         	font-size: 12px;
+         	line-height: 32px;
+         }
+         .con-button{
+         	width: 50px;
+         	height: 25px;
+         	background-color: #1154A8;
+         	
+         }
+         
+             .won{
+				width: 1000px;
+				height: 100px;
+				margin:0px auto;
+				
+				
+				border-top: 1px solid #cdcdcd
+			}
+			.p{
+				font-family: "黑体";
+				font-size: 18px;
+				float:left ;
+				padding-top: 10px;
+				
+			}
+			.po{
+				
+				font-family: "黑体";
+				font-size: 18px;
+				float: right;
+				padding-top: 10px;
+			}	
+				.tou1{
+					
+					width: 60px;
+					height: 40px;
+					margin-top: 20px;
+					background: #2C7CCD;
+	            }
+
+
+      
+
+          
+          
+          
+          
+          
+    

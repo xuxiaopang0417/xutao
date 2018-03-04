@@ -1,0 +1,226 @@
+
+/*公用样式*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+body{
+    background-color: #eef4f6;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+
+}
+
+
+
+
+
+.all-content{
+    width: 1000px;
+    height: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+
+
+
+}
+.header1{
+    width: 1000px;
+    height: 25px;
+    border-bottom: 1px solid #ccc;
+    background-color: #eef4f6;
+
+
+}
+
+.frist-nav{
+    height: 25px;
+
+    margin-left: 10px;
+
+}
+
+
+.header2{
+    width: 1000px;
+    height: 100px;
+    /*	border-top: 1px solid #ccc;*/
+
+    position: relative;
+
+}
+.logo{
+    float: left;
+    margin-top: 8px;
+}
+.header-input{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top:0 ;
+    left: 600px;
+
+}
+
+.input-size{
+    width: 150px;
+    height:20px ;
+    outline: none;
+}
+.intut1{
+    margin-top:25px ;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.denglu{
+    width: 80px;
+}
+.found-pwd{
+    width: 70px;
+    height: 60px;
+    border-left:1px solid #cdcdcd;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+
+
+}
+.pwss{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.zhuce{
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.zhuce a{
+    color: #2c7ccd;
+
+}
+
+
+
+
+.header3{
+    width: 1000px;
+    height: 35px;
+    background-color: #2C7CCD;
+    margin-top: 6px;
+    position: relative;
+}
+
+.shouye{
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color:#1858b8 ;
+
+
+}
+.shouye a{
+    font-size: 18px;
+    color: #fff;
+
+
+}
+
+
+
+.header3-nav{
+    width: 450px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 70px;
+
+}
+.header3-nav li{
+    float: left;
+    line-height: 35px;
+    border-right:1px solid #fff ;
+
+    text-align: center;
+}
+.header3-nav a{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    width: 140px;
+    height: 35px;
+
+
+}
+.header3-nav a:hover{
+    background-color:#1858b8 ;
+
+
+}
+
+
+
+.header4{
+    width: 1000px;
+    height: 40px;
+    background-color: #f8fafb;
+    position: relative;
+}
+
+.soushuo{
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+.search{
+    width: 500px;
+    height: 30px;
+
+    position: absolute;
+    top: 2px;
+
+    left: 45px;
+
+}
+.search-1{
+    width: 420px;
+    height: 30px;
+    outline: none;
+
+}
+.search-2{
+    color: #1858B8;
+    width: 70px;
+    height:34px ;
+    display: block;
+    font-size:18px ;
+    margin-top: -34px;
+    margin-left: 423px;
+}
+.hot-resou{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left:550px ;
+
+}
+.resou-nav li{
+    float: left;
+    line-height: 30px;
+    width: 40px;
+}
+.resou-nav a{
+    color: #336699;
+}
+
+

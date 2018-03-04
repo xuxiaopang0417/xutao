@@ -1,0 +1,90 @@
+.modified_data{
+
+    width: 1000px;
+    height: 350px;
+    /*background-color: palevioletred;*/
+    border:  1px solid #cdcdcd;
+    position: relative;
+    background-color: #fff;
+
+}
+.modified_data_left{
+
+    width: 150px;
+    height: 350px;
+    font-size: 16px;
+    background-color: #e8f0f7;
+    border: 1px solid #cdcdcd;
+
+}
+.modified_data_left_center{
+
+    width: 150px;
+    height: 250px;
+    margin: 0 auto;
+}
+.modified_data_left_center li{
+
+text-align: left;
+    font-size: 16px;
+    color: #444;
+}
+.modified_data_left_center-1{
+    width:150px;
+    height: 45px;
+    line-height: 45px;
+
+
+
+}
+.modified_data_left_center-2{
+    width:150px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #fff;
+}
+.modified_data_left_center-3{
+    width:150px;
+    height: 35px;
+    line-height: 35px;
+}
+.modified_data_left_center-4{
+    width:150px;
+    height: 35px;
+    line-height: 35px;
+}
+.modified_data_left_center-5{
+    width:150px;
+    height: 35px;
+    line-height: 35px;
+}
+
+
+/*右边的内容部分*/
+
+
+.modified_data_right{
+    width: 840px;
+    height: 350px;
+
+    position: absolute;
+    top: 0;
+    left: 165px;
+    /*background-color: springgreen;*/
+
+
+}
+.modified_data_right h2{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.modified_data_right p{
+    margin-bottom:20px ;
+}
+.modified_data_right-button{
+    width: 60px;
+    height: 30px;
+    background-color: #2b74c5;
+
+    margin: 20px 0;
+}
